@@ -1,0 +1,102 @@
+/* Styles go here */
+th
+{
+  padding-left:10px;
+}
+a
+{
+	color:white;
+}
+h2 ,h3,h4
+{
+  font-family: handlee;
+  font-size:30px;
+}
+
+td
+{
+  padding-top:15px;
+  padding-left:15px;
+  
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.btn
+{
+  background-color:#bb99ff;
+  height:200px;
+  width:200px;
+  border-radius:100%;
+  outline:0;
+  
+}
+.output
+{
+  margin-top:17px;
+  font-size:100px;
+  
+}
+.btn:hover
+{
+  
+  background:url(https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg);
+  background-size:100% 100%;
+  
+}
+.btn:focus
+{
+  outline:0;
+}
+
+form:acitve
+{
+  border-style:dotted;
+}
+
+
+
+body {
+  background: -webkit-linear-gradient(90deg, #2196F3 0%, #010c14 0%);
+  background: linear-gradient(90deg, #2196F3 0%, red 200%);
+  background-size: 900% 900%;
+  height: 100%;
+  width: 100%;
+
+ 
+  -webkit-animation: background 11s ease infinite;
+          animation: background 11s ease infinite;
+}
+
+@-webkit-keyframes background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+*:focus
+{
+  outline:0;
+}
+
