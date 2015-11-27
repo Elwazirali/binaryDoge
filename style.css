@@ -1,4 +1,13 @@
 /* Styles go here */
+form {
+    width: 800px;
+}
+
+@media only screen and (max-width: 800px) {
+    form {
+        width: 100%;
+    }
+}
 th
 {
   padding-left:10px;
