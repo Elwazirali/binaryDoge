@@ -1,8 +1,3 @@
-// Code goes here
-
-// Code goes here
-
-
 
 var MainController = function($scope) {
   var count = 0;
